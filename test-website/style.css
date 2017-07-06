@@ -1,0 +1,176 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+ul{	
+	list-style-type: none;
+	margin-left:10%;
+}
+
+li{
+	display: inline;
+}
+
+h4{
+	padding:2% 0 0 2%;
+	text-align: center;
+}
+
+#heading{
+	font-size: 2em;
+	padding-left: 5px;
+	font-weight:bold;
+	position: fixed;
+	top:5px;
+	left: 15px;
+}
+
+.hdr:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.nav-menu{
+	margin: 0;
+	background-color: #F2DDB8;
+	position: fixed;
+	width: 100%;
+	height: 7%;
+	font-family: sans-serif;
+	color: #407BAE;
+	padding-top: 12px;
+	z-index: 1;
+}
+
+.navigate{
+	text-decoration: none;
+	color: #407BAE;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.navigate:hover{
+	text-decoration: none;
+	background-color: #DEB887;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 36px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.div1{
+	background: url(assets/1.jpg);
+	width: 100%;
+	height: 700px;
+	background-attachment: fixed;
+}
+
+#text{
+	font-size: 5.9em;
+	position: relative;
+	top: 35%;
+	color: white;
+	text-shadow: 4px 4px grey;
+	font-family: monotype corsiva;
+	font-weight: bold;
+	padding:5%;
+	background-attachment: fixed;
+}
+
+.div2{
+	background-color: #8C4FC6;
+	width: 100%;
+	height:700px;
+}
+
+.div3{
+	background-color: #8BA0CD;
+	width: 230px;
+	height: 200px;
+	border:1px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+	font-family: sans-serif;
+	position: relative;
+	top:40%;
+	padding: 2px;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-attachment: fixed;
+}
+
+.one{
+	float: left;
+}
+
+.two{
+	float: right;
+}
+
+.div4{
+	width: 100%;
+	height: 700px;
+	background-color: white;
+}
+
+.div5{
+	width: 70%;
+	background-color: #F5F5F5;
+	border-radius: 10px;
+	border:1px solid lightgrey;
+	position: relative;
+	top:30%;
+	left:15%;
+
+}
+
+.font1{
+	margin-left: 10%;
+	margin-bottom: 2%; 
+	font-weight: bold;
+	text-align: left;
+}
+
+.inputbox{
+	width: 450px;
+	margin-right: 15%;
+	float: right;
+	border-radius: 4px;
+	font-weight: normal;
+}
+
+.submit_edit{
+	color: white;
+	background-color: #407BAE;
+	width: 400px;
+	height: 35px;
+	border-radius: 7px;
+	margin-left: 35%;
+	margin-top: 3%;
+
+}
